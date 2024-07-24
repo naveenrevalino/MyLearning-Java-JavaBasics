@@ -1,0 +1,60 @@
+THREADS : live in the same address space and share the objects
+PROCESSES : Live in different address space
+THREAD PRIORITY:
+THREAD POOL:
+THREAD JOIN:
+Static Variable
+Private Constructor
+Public Static methods
+Singleton Pattern : how to create a simple single instance class
+Singleton Pattern : how to create a thread safe single instance class
+Double Locked block of code
+Methods to initialize a class during thread safe operations : Eager method, Lazy method
+
+SYNCHRONIZATION:
+Thread(s) share same memory space and objects, There might be a case where only one thread has access to a particular
+object at a given time. If more than one thread tries to access the same object at the same time a conflict can occur.
+Hence, to overcome this problem we use lock(s), each thread that tries to get access to this synchronized methods will
+have to get the lock. other threads will have to wait. How to achieve this?
+
+SYNCHRONIZED METHOD:
+Does not need an explicit lock, because it will automatically use the current class instance as the lock object.
+
+SYNCHRONIZED BLOCK:
+Line(s) of codes within a method that is wrapped by a synchronized block, needs an explicit lock.
+
+SYNCHRONIZING STATIC METHODS:
+We use the class lock.
+
+LOCKS(s):
+Can be any object, example, new Object(), new String(), or even the 'this' keyword.
+
+CLASS LOCK:
+In case of static methods, we do not create an instance of a class, hence the 'this' keyword will not work.
+we will have to use the ' ClassName.class ' keyword in place of the 'this' keyword.
+
+CONCLUSION:
+A synchronized static method is independent of a synchronized non-static method, because their lock is different.
+
+VOLATILE KEYWORD :
+Thread in java will interact with CPU -> CPU will interact with RAM. ( remember there is CACHE too ) which is in between CPU and RAM.
+Cache -> will store and modify a copy of an object, making it easier and fast, but it will take some time to update the actual object that was created in RAM.
+if another thread is also using cache, and a new copy of the actual object in the cache is updated the previous thread will never come to know of the changes made.
+hence will have to stop this behaviour and force all the threads to access the object in RAM. Hence we use the keyword VOLATILE when creating an instance of this shared object.
+example : Object volatile originalObject = new Object();
+
+THREAD STATE:
+Once a thread goes to a Thread.sleep : it goes to a non runnable state ( sleep / hibernate )
+In a sleeping state, the thread sleeps for a specified time/season.
+Another such state is blocked for I/O : where the thread is waiting for an user input.
+
+*** important note : ***
+When sleeping : while sleeping the thread will still hold on to the lock, it will not release it.
+When waiting : the thread will let go of the lock
+
+Check the screenshot to get a better understanding
+CHECK THE THREAD STATES PNG
+ALSO CHECK THE THREAD STATES DETAILS PNG
+RUNNING and YIELDING PNG
+SLEEPING and WAKING UP PNG
+WAITING and NOTIFY PNG

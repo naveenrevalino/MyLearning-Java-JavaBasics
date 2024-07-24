@@ -1,0 +1,4 @@
+COMPARATOR :
+will return a value  0 if 01 == 02
+will return a value -1 if 01 < 02
+will return a value  1 if 01 > 02

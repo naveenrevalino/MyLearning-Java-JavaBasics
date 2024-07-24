@@ -1,0 +1,5 @@
+PRODUCER CONSUMER PATTERN
+You have a queue, and there are two group of threads, one to add items to the queue, and the other to remove.
+
+The OBJECT class in java has the following methods already implemented in them and we will make use of them over here.
+Those methods are : 1.Wait, 2.Notify, 3.NotifyAll.

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Naveen Ravi",
+    "city": "Montreal",
+    "salary": 5000
+  },
+  {
+    "name": "Praveen Ravi",
+    "city": "Montreal",
+    "salary": 8000
+  },
+  {
+    "name": "Soody Ravi",
+    "city": "California",
+    "salary": 7000
+  },
+  {
+    "name": "Samreena Nargis",
+    "city": "California",
+    "salary": 9000
+  },
+  {
+    "name": "Ravi Krishnaswamy",
+    "city": "Munnar",
+    "salary": 3000
+  },
+  {
+    "name": "Gowri Andal",
+    "city": "Munnar",
+    "salary": 9000
+  }
+]

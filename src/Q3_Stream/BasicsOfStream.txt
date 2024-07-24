@@ -1,0 +1,14 @@
+What it does :
+
+SOURCE -> FILTER -> SORT -> MAP -> COLLECT
+
+STREAM SOURCE : can come from an ARRAY, LIST, SETS, INT, LONGS, DOUBLE, Line of a file.
+
+INTERMEDIATE OPERATIONS : such as filter, map or sort, this will return another stream. We can chain multiple intermediate operations.
+Order of operation, FILTER FIRST then sort or map.
+Other operations are, anyMatch(), distinct(), filter(), findFirst(), flatMap(), map(), skip(), and sorted().
+
+TERMINAL OPERATIONS : such as forEach, collect or reduce, can return void, or a non-stream result.
+forEach : applies to the same function of each element.
+collect : saves the elements into a collection.
+All other operations like, count(), max(), min(), reduce(), summaryStatistic() : reduces the stream to a single summary element.
