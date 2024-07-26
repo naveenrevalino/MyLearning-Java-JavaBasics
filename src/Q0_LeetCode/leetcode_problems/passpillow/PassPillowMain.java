@@ -1,4 +1,4 @@
-package org.leetcode_problems.passpillow;
+package Q0_LeetCode.leetcode_problems.passpillow;
 
 public class PassPillowMain {
 

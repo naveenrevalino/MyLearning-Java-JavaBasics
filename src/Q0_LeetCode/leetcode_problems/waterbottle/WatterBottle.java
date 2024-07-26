@@ -1,4 +1,4 @@
-package org.leetcode_problems.waterbottle;
+package Q0_LeetCode.leetcode_problems.waterbottle;
 
 public class WatterBottle {
     public static void main(String[] args) {

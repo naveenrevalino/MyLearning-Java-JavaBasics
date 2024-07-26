@@ -1,4 +1,4 @@
-package org.data_structures_and_algorithms.arrays_and_strings.tow_pointer;
+package Q0_LeetCode.data_structures_and_algorithms.arrays_and_strings.tow_pointer;
 
 public class TowPointer1 {
 

@@ -1,4 +1,4 @@
-package org.data_structures_and_algorithms.introduction.recursion;
+package Q0_LeetCode.data_structures_and_algorithms.introduction.recursion;
 
 public class IntorToRecursion {
 
