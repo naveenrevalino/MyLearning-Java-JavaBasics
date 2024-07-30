@@ -1,0 +1,29 @@
+Data Structures and Algorithms
+
+01. Introduction
+    1.01 Big O notation.
+    1.02 Recursion.
+02. Arrays and strings
+    2.01 Arrays and strings.
+    2.02 Two pointers.
+    2.03 Reverse string.
+    2.04 Squares of a sorted array.
+    2.05 Sliding window.
+    2.06 Maximum average sub-array I.
+    2.07 Maximum consecutive ones III.
+    2.08 Prefix sum.
+    2.09 Running sum of one dimensional array.
+    2.10 Minimum value to get positive step by step sum.
+    2.11 K radius sub-array averages.
+    2.12 More common patterns.
+    2.13 Arrays and string quiz.
+    2.14 Bonus problems, arrays and strings.
+03. Hashing
+04. Linked lists
+05. Stacks and queues
+06. Trees and graphs
+07. Heaps
+08. Greedy
+09. Binary search
+10. Backtracking
+11. Dynamic programming
