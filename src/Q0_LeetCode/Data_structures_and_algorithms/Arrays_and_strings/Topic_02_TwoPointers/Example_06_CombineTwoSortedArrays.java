@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-TODO Example 6:
+TODO Example 06: Combine Two Sorted Arrays.
  Given two sorted integer arrays arr1 and arr2, return a new array that combines both of them and is also sorted.
 
- Hint : The trivial approach would be to first combine both input arrays and then perform a sort. If we have
- n = arr1.length + arr2.length, then this gives a time complexity of O(n⋅log n) (the cost of sorting).
- This would be a good approach if the input arrays were not sorted, but because they are sorted,
- we can take advantage of the two pointers technique to improve to O(n).
+Hint : The trivial approach would be to first combine both input arrays and then perform a sort. If we have
+n = arr1.length + arr2.length, then this gives a time complexity of O(n⋅log n) (the cost of sorting). This would be a
+good approach if the input arrays were not sorted, but because they are sorted, we can take advantage of the two
+pointers technique to improve to O(n).
 */
 public class Example_06_CombineTwoSortedArrays {
 

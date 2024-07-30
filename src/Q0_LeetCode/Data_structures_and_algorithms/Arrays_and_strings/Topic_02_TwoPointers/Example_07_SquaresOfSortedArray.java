@@ -3,8 +3,8 @@ package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_02_T
 import java.util.Arrays;
 
 /*
-TODO Example 7: Given an integer array nums sorted in non-decreasing order, return an array of the squares of each
- number sorted in non-decreasing order.
+TODO Example 07: Squares Of Elements And Sort.
+ Given an integer array, return an array of the squares of each number sorted in non-decreasing order.
 
 Example 1:
     Input: nums = [-4,-1,0,3,10]

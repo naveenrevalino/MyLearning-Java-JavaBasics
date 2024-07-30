@@ -1,7 +1,7 @@
 package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_02_TwoPointers;
 
 /*
-TODO Example 5:
+TODO Example 05: Is Subsequence.
  Given two strings "s" and "t", return true if s is a subsequence of t, or false otherwise.
 
 A subsequence of a string is a sequence of characters that can be obtained by deleting some (or none) of the characters
@@ -10,7 +10,7 @@ from the original string, while maintaining the relative order of the remaining 
 For example, "ace" is a subsequence of "abcde",
              while "aec" is not a subsequence of "abcde".
 */
-public class Example_05_IsSubSequence {
+public class Example_05_IsSubsequence {
 
     // Class Variable(s)
     static String string1 = "ace";

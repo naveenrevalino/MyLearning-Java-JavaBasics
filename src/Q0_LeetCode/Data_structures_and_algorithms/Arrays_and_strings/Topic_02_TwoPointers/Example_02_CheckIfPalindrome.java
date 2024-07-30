@@ -1,8 +1,10 @@
 package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_02_TwoPointers;
 
 /*
- TODO Example 2: Given a string s, return true if it is a palindrome, false otherwise.
-A string is a palindrome if it reads the same forward as backward. That means, after reversing it, it is still
+TODO Example 02:  Check If Palindrome.
+ Given a string s, return true if it is a palindrome, false otherwise.
+
+For Example, A string is a palindrome if it reads the same forward as backward. That means, after reversing it, it is still
 the same string.
  */
 
