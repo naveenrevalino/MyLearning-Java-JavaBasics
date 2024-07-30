@@ -10,7 +10,7 @@ public class Example_02_CheckIfPalindrome {
 
     public static void main(String[] args) {
 
-        System.out.println( checkPalindrome( "ABCdcba".toLowerCase() ) ? "Given string is palindrome." : "Given string is not palindrome" );;
+        System.out.println( checkPalindrome( "ABCdcba".toLowerCase() ) ? "Given string is palindrome." : "Given string is not palindrome" );
 
     }
 

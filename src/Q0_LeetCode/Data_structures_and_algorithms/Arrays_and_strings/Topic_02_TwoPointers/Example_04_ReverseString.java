@@ -38,13 +38,6 @@ public class Example_04_ReverseString {
             left ++;
             right --;
 
-            /*
-            char temp = s[left];
-            s[left++] = s[right];
-            s[right--] = temp;
-            */
-
-
         }
 
         System.out.println(Arrays.toString(s));

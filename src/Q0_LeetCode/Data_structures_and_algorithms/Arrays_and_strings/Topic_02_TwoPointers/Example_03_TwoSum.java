@@ -19,6 +19,7 @@ public class Example_03_TwoSum {
     public static void main(String[] args) {
 
         findSum(13, sortedArray);
+        findSum( 13, getSortedArray(unsortedArray) );
 
     }
 
@@ -32,7 +33,7 @@ public class Example_03_TwoSum {
         int right = sortedArray.length - 1;
 
         // Sum is initialized to zero, used to store the sum of left and right integer value of the given array.
-        int sum = 0;
+        int sum;
 
         // The while loop is used to traverse the array from both the ends until they meet in the middle.
         while( left < right ) {
