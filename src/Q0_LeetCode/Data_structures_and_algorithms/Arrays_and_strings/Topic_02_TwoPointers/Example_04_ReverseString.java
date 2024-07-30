@@ -4,10 +4,10 @@ package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_02_T
 import java.util.Arrays;
 
 /*
-TODO PROBLEM 1 : Write a function that reverses a string. The input string is given as an array of characters s.
+TODO Example 4 : Write a function that reverses a string. The input string is given as an array of characters s.
 Condition: You must do this by modifying the input array in-place with O(1) extra memory.
  */
-public class Example_06_ReverseString {
+public class Example_04_ReverseString {
 
     // Class Variable(s)
     static char[] s = new char[] { 'n', 'a', 'v', 'e', 'e', 'n' };

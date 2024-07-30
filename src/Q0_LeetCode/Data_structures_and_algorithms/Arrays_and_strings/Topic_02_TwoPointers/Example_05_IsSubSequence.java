@@ -1,7 +1,7 @@
 package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_02_TwoPointers;
 
 /*
-TODO Question 6:
+TODO Example 5:
  Given two strings "s" and "t", return true if s is a subsequence of t, or false otherwise.
 
 A subsequence of a string is a sequence of characters that can be obtained by deleting some (or none) of the characters

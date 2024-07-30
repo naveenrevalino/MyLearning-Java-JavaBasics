@@ -3,7 +3,7 @@ package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_02_T
 import java.util.Arrays;
 
 /*
-TODO Question 3:
+TODO Example 3:
  Given a sorted array of unique integers and a target integer, return true if there exists
  a pair of numbers that sum to target, false otherwise. This problem is similar to Two Sum.
  (In Two Sum, the input is not sorted).

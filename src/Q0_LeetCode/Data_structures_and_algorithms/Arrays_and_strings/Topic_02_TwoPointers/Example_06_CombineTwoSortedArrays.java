@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-TODO Question 5:
+TODO Example 6:
  Given two sorted integer arrays arr1 and arr2, return a new array that combines both of them and is also sorted.
 
  Hint : The trivial approach would be to first combine both input arrays and then perform a sort. If we have
@@ -12,7 +12,7 @@ TODO Question 5:
  This would be a good approach if the input arrays were not sorted, but because they are sorted,
  we can take advantage of the two pointers technique to improve to O(n).
 */
-public class Example_04_CombineTwoSortedArrays {
+public class Example_06_CombineTwoSortedArrays {
 
     static int[] arr1 = new int[] { 1, 4, 7, 20 };
     static int[] arr2 = new int[] { 3, 5, 6 };
