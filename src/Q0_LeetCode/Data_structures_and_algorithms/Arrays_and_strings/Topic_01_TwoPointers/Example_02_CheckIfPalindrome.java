@@ -1,4 +1,4 @@
-package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_02_TwoPointers;
+package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_01_TwoPointers;
 
 /*
 TODO Example 02:  Check If Palindrome.
