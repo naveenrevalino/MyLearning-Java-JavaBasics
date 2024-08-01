@@ -49,7 +49,7 @@ public class Example_03_NumberOfSubarrays {
 
         // Method Variable(s)
         int leftBound = 0;
-        int rightBound = 0;
+        int rightBound;
         int numberOfSubarrays = 0;
         int currentProductValue = 1;
 
