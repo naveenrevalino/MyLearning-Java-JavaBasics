@@ -1,6 +1,6 @@
 package Q0_LeetCode.Data_structures_and_algorithms.Arrays_and_strings.Topic_02_SlidingWindow;
 
-/*
+/**
 TODO: Example 05: Maximum Average Subarray I
  You are given an integer array consisting of n elements, and an integer k.
  Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value.
@@ -21,7 +21,7 @@ public class Example_05_MaximumAverageSubarray {
         System.out.println( finalResult );
     }
 
-    /*
+    /**
         TODO SUDO CODE
         1. FOR-LOOP - To build a subarray from index(0) up to index( fixed window size -1 )
             On Each Iteration,
