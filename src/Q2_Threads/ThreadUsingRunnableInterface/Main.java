@@ -14,8 +14,7 @@ public class Main {
          */
 
         // Runnable Target : Create an instance of the CustomThread Class
-        CustomThread customThread = new CustomThread(); // Type : CustomThread Class
-        Runnable customThread1 = new CustomThread();    // Type : Runnable Interface
+        Runnable customThread = new CustomThread();    // Type : Instance CustomThread Class
 
         // Thread Class : Create an instance of Thread class and pass the instance of a runnable ( in this case : customThread )
         Thread thread = new Thread( customThread );

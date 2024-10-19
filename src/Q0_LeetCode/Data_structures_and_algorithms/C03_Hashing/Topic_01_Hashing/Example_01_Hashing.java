@@ -18,12 +18,21 @@ package Q0_LeetCode.Data_structures_and_algorithms.C03_Hashing.Topic_01_Hashing;
  * COLLISION: When different keys convert to same integer collision occurs. When that happens the key-value pair get overwritten.
  * How to fix this:  The problem can be fixed using a concept called chaining.
  * Lets say we have a collision occurring at index(4) of an array, instead of overwriting the value, we insert a linked list
- * in index(4) and add both the key-value pairs, hence data is not lost.
+ * in index(4) and add both the value(s) to the same key, hence data is not lost. If you wat to retrieve a specific value, then we iterate over the list of values in that index.
 
  * TODO: Example
  *   (0) (1) (2) (3) (4) (5)
  * [  O,  O,  O,  O,  O,  O  ]
  * index(4) will have a linked-list containing multiple value while other indexes will have only one element.
  */
+
+/**
+ * TODO: Given an array of integers and a target value, return indices of two numbers such that they add up to target.
+ *  You cannot use the same index twice.
+ */
 public class Example_01_Hashing {
+
+    public static void main(String[] args) {
+        System.out.println("Introduction to Hashing.");
+    }
 }

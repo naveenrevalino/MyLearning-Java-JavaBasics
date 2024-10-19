@@ -1,5 +1,8 @@
 package Q2_Threads.ThreadUsingThreadClass;
 
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+
 public class Main {
 
 
@@ -13,12 +16,11 @@ public class Main {
                 * You can extend only one class at a time.
          */
 
-        // Thread Class : Create an instance of Thread class ( in this case : customThread )
-        Thread newThread = new CustomThread( );             // Type : Thread Class
-        CustomThread customThread = new CustomThread( );    // Type : CustomThread Class
+        CustomThread customThread = new CustomThread( );    // Type : Instance of CustomThread Class
+        customThread.start();   // The start() method will schedule the thread to be run, by passing it on to the thread scheduler.
 
-        // The start() method will schedule the thread to be run, by passing it on to the thread scheduler.
-        customThread.start();
+        Executor singleThreadExecutor = Executors.newSingleThreadExecutor();
+        singleThreadExecutor.execute( customThread );
 
         System.out.println( " ( Main Thread ) - Main Method : ENDED ");
     }
