@@ -14,8 +14,13 @@ public class Example_05_CheckIfPangram {
 
     public static void main(String[] args) {
 
-        boolean finalResult = checkIfSentenceIsPangram( givenSentence );
+        boolean finalResult;
+
+        finalResult = checkIfSentenceIsPangram( givenSentence );
+        finalResult = alternateCheckIsPangram( givenSentence );
         System.out.println( finalResult );
+
+
 
     }
 
@@ -34,14 +39,41 @@ public class Example_05_CheckIfPangram {
         boolean isPangram = false;
         Set<Character> characterSet = new HashSet<>();
 
-        for( char eachChar : givenSentence.toCharArray() ) {
-            characterSet.add( eachChar );
+        // If the length of the sentence is less than 26 then we don't have to do any computation, simply return FALSE.
+        if ( givenSentence.length() < 26 ){
+            return isPangram;
+        } else {
+
+            // if length of given sentence is equal to 26 or more than 26, then perform the complex computation.
+            for (char eachChar : givenSentence.toCharArray()) {
+                characterSet.add(eachChar);
+            }
+
+            // Check if the final size of the SET is equal to 26? Then set isPangram to TRUE.
+            if( characterSet.size() == 26 ){
+                isPangram = true;
+            }
         }
 
-        if( characterSet.size() == 26 ){
-            isPangram = true;
+        // Final return statement.
+        return isPangram;
+    }
+
+    public static boolean alternateCheckIsPangram( String givenSentence ) {
+
+        // Method Variable(s):
+        boolean isPangram = true;
+
+        // FOR-LOOP : to iterate through each character in english alphabet.
+        for( char eachAlphabet = 'a'; eachAlphabet <= 'z'; eachAlphabet ++ ){
+
+            // IF-CHECK : to check if each alphabet is present in the given sentence.
+            if( givenSentence.indexOf( eachAlphabet  ) < 0 ){
+                isPangram = false;
+            }
         }
 
+        // Final return statement.
         return isPangram;
     }
 }
