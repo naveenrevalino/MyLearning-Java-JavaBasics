@@ -3,9 +3,9 @@ package Q0_LeetCode.Data_structures_and_algorithms.C03_Hashing.Topic_01_Hashing;
 import java.util.*;
 
 /**
- *  Intersection of Multiple Arrays
- *  Given a 2D array numbers that contains n arrays of distinct integers,
- *  return a sorted array containing all the numbers that appear in all n arrays.
+ *  Intersection of Multiple Arrays:
+ *  TODO Given a 2D array numbers that contains n arrays of distinct integers,
+ *   return a sorted array containing all the numbers that appear in all n arrays.
  *  Example, given  numbers =
  *  [
  *  [3,1,2,4,5],
