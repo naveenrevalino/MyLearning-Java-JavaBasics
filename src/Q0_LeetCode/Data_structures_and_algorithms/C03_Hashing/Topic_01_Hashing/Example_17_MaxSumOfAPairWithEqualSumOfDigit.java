@@ -2,6 +2,11 @@ package Q0_LeetCode.Data_structures_and_algorithms.C03_Hashing.Topic_01_Hashing;
 
 import java.util.*;
 
+/**
+ * TODO Given an array of integers nums, find the maximum value of nums[i] + nums[j], where nums[i] and nums[j] have the
+ *  same digit sum (the sum of their individual digits). Return -1 if there is no pair of numbers with the same digit sum.
+ * Example:
+ */
 public class Example_17_MaxSumOfAPairWithEqualSumOfDigit {
 
     public static void main(String[] args) {

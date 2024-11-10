@@ -5,6 +5,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * TODO Given an integer array cards, find the length of the shortest subarray that contains at least one duplicate.
+ *  If the array has no duplicates, return -1.
+ * Example: given cards = [1, 2, 6, 2, 1], we would map 1: [0, 4], 2: [1, 3], and 6: [2]. Then we can iterate over the
+ * values and see that the minimum difference can be achieved from picking up the 2s.
+ */
 public class Example_16_MinimumConsecutiveCardPickUp {
 
     public static void main(String[] args) {

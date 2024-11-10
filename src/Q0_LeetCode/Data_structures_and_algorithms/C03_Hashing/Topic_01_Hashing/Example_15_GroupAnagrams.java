@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * TODO Given an array of strings strs, group the anagrams together.
+ * Example: given string[] = ["eat","tea","tan","ate","nat","bat"], return [["bat"],["nat","tan"],["ate","eat","tea"]].
+ */
 public class Example_15_GroupAnagrams {
     public static void main(String[] args) {
 
