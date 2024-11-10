@@ -1,4 +1,4 @@
-package Q0_LeetCode.Data_structures_and_algorithms.C03_Hashing.Topic_01_Hashing;
+package Q0_LeetCode.Data_structures_and_algorithms.C03_Hashing;
 
 import java.util.ArrayList;
 import java.util.HashSet;
